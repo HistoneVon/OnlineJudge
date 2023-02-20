@@ -1,0 +1,39 @@
+# 031_JDnowcoder A+B_4
+
+> Author: fengclchn@outlook.com
+>
+> Date: 02/20/2023
+
+[TOC]
+
+![image-20230220103322866](./031_JDnowcoder A+B_4.assets/image-20230220103322866.png)
+
+## 第一次提交
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, m;
+    int sum;
+    while (cin >> n)
+    {
+        sum = 0;
+        if (n == 0)
+        {
+            break;
+        }
+        for (int i = 0; i < n; ++i)
+        {
+            cin >> m;
+            sum += m;
+        }
+        cout << sum << endl;
+    }
+
+    return 0;
+}
+```
+
